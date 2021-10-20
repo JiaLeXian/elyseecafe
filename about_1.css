@@ -1,0 +1,94 @@
+:root {
+  --primary-color: #0A4135;
+  --secondary-color: #484848;
+  --overlay-color: rgba(0, 0, 0, 0.7);
+  --background:#F0DBBB;
+  --font-family: "Helvetica Neue", sans-serif;
+  --font-heading: "Catamaran", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: 1.6;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.features{
+  margin-top: 30px;
+}
+
+.quick-search.second{
+  margin-top: 30px;
+}
+
+
+
+.column {
+  float: left;
+  width: 44%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.form_container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.form-minimal .minimal-input {
+  position: relative;
+  width: 300px;
+  margin-bottom: 70px;
+}
+
+.form-minimal label {
+
+  font-size: 15px;
+  color: #777;
+  position: absolute;
+  left: 0;
+  top: -25px;
+  ;
+}
+
+.minimal-textfield {
+  color: #0A4135;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  font-size: 40px;
+}
+
+.minimal-textfield:focus {
+      outline: none;
+}
+
+.textfield-underline {
+  background-color: #0A4135;
+  width: 100%;
+  height: 1px;
+  margin-top: 8px;
+}
+
+.btn-minimal {
+  background-color: transparent;
+  border: 3px solid #bbb;
+  padding: 10px;
+  color: #0A4135;
+  font-size: 20px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 3rem;
+}
+
+.btn-minimal:hover {
+  color: #0A4135;
+  border-color: #0A4135;
+}
